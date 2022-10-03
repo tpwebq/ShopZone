@@ -289,3 +289,66 @@
 body, html {
   min-height: 100vh;
 }
+
+/* line 31, ../sass/partials/_mixins.scss */
+.comingsoon-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/comingsoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.error-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/error.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.privacy-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/privacy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 4, ../sass/partials/_modules.scss */
+.bg-dark-pink {
+  background-color: #b41347 !important;
+}
+/* line 7, ../sass/partials/_modules.scss */
+.bg-dark-violet {
+  background-color: #5f0a27 !important;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
+.border-dark-pink {
+  border-color: #b41347 !important;
+}
+/* line 15, ../sass/partials/_modules.scss */
+.border-dark-violet {
+  border-color: #5f0a27 !important;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-position-x: right !important;
+}
+
+/* line 26, ../sass/partials/_modules.scss */
+.text-dark-pink {
+  color: #b41347 !important;
+}
+/* line 29, ../sass/partials/_modules.scss */
+.text-dark-violet {
+  color: #5f0a27 !important;
+}
+/* line 32, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
