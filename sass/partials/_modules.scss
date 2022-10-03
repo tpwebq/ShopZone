@@ -1,0 +1,35 @@
+@include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+
+.bg{
+    &-dark-pink{
+        background-color:$color__pink--dark!important;
+    }
+    &-dark-violet{
+        background-color: $color__violet--dark!important;
+    }
+}
+.border{
+    &-dark-pink{
+        border-color:$color__pink--dark !important;
+    }
+    &-dark-violet{
+        border-color: $color__violet--dark!important;
+    }
+}
+.privacy{
+    &-s1{
+        background-position-x: right!important;
+    }
+}
+
+.text{
+    &-dark-pink{
+        color:$color__pink--dark!important; 
+    }
+    &-dark-violet{
+        color: $color__violet--dark!important;
+    }
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
