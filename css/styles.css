@@ -336,19 +336,45 @@ body, html {
 }
 
 /* line 20, ../sass/partials/_modules.scss */
+.navbar-logo {
+  height: 40px;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-position-x: right !important;
 }
 
-/* line 26, ../sass/partials/_modules.scss */
+/* line 30, ../sass/partials/_modules.scss */
 .text-dark-pink {
   color: #b41347 !important;
 }
-/* line 29, ../sass/partials/_modules.scss */
+/* line 33, ../sass/partials/_modules.scss */
 .text-dark-violet {
   color: #5f0a27 !important;
 }
-/* line 32, ../sass/partials/_modules.scss */
+/* line 36, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
+}
+
+/* line 40, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 43, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 48, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    backdrop-filter: blur(5px);
+    background-color: #fff;
+    border: 1px solid #999;
+    opacity: 0.9;
+    padding: 10px;
+  }
 }
