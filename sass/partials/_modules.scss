@@ -1,11 +1,29 @@
 @include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
-
+@media all and (max-width: 991px), all and (orientation: portrait){
+    @include aoa-bg-series($img__classes--v,$img__aoa--v,0,"center","cover","scroll");
+}
+.about{
+    &-s1{
+        background-position-x: right!important;
+    }
+    &-s2{
+        background-position-x: left!important; 
+    }
+}
+.basket{
+    &-s1{
+        background-position-y: bottom!important;
+    }
+    &-s2{
+        background-position-y: top!important;
+    }
+}
 .bg{
     &-dark-pink{
-        background-color:$color__pink--dark!important;
+        background-color:$color__pink--dark;
     }
     &-dark-violet{
-        background-color: $color__violet--dark!important;
+        background-color: $color__violet--dark;
     }
 }
 .border{
@@ -16,6 +34,14 @@
         border-color: $color__violet--dark!important;
     }
 }
+.contact{
+    &-s1{
+        background-position-y: bottom!important;
+    }
+    &-s2{
+        background-position-y: top!important;
+    }
+}
 .navbar{
     &-logo{
         height: $logo__height;
@@ -24,6 +50,14 @@
 .privacy{
     &-s1{
         background-position-x: right!important;
+    }
+}
+.products{
+    &-s1{
+        background-position-y: bottom!important;
+    }
+    &-s2{
+        background-position-y: top!important;
     }
 }
 .text{
@@ -37,8 +71,12 @@
         text-shadow: $text__shadow;
     }
 }
+h1,h2,h3,h4,h5,h6,.nav-link,th{
+    font-family: "Caveat";
+    letter-spacing: 2px;
+}
 header{
-    z-index: 10;
+    z-index: 100;
 }
 textarea{
     resize: none;
@@ -47,8 +85,8 @@ textarea{
     .navbar{
         &-nav{
             backdrop-filter: blur(5px); 
-            background-color: #fff;
-            border: 1px solid #999;
+            background-color: $color__pink--dark;
+            border: 1px solid $color__violet--dark;
             opacity: 0.9;
             padding: 10px;
         }
